@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Relaxing Spa</title>
+</head>
+
+<body>
+    <nav
+        class=" font-weight-bold d-flex  p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+        <a class="title  mr-md-5 text-decoration-none title font-weight-bold" href="index.html">Relaxing Spa</a>
+         <button type="button" class="btn btn-light servicesBtn font-weight-bold bg-white">Services</button>
+        </nav>
+    <!--Home Page-->
+    <div id="homePagediv">
+        <div class="jumbotron">
+        </div>
+   
+    <div class="text-center page mt-5 col-md-4 text-center">
+            <h1 >Feel natural, be natural.</h1>
+            <p>Get away with your girlfriends and delight in all that Relaxing Spa has to offer. While enjoying their company, try one or several spa services, including, a hot stone and signature four-handed massage, award winning facials, microdermabrasion and so much more !</p>
+            <a href="#" class="btn btn-warning btn-lg active font-weight-bold mt-3 servicesBtn" role="button"
+              aria-pressed="true">Services</a>
+          </div>
+    
+          <div class="album py-5">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card mb-4 shadow-sm">
+                        <img src="images/spa.jpg" alt="languages" />
+                        <div class="card-body">
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a natural
+                            lead-in to additional content. This content is a little bit
+                            longer.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="col-md-4">
+                      <div class="card mb-4 shadow-sm">
+                        <img src="images/services.jpg" alt="technology" />
+                        <div class="card-body">
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a natural
+                            lead-in to additional content. This content is a little bit
+                            longer.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card mb-4 shadow-sm">
+                        <img src="images/facial.jpg" alt="people" />
+                        <div class="card-body">
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a natural
+                            lead-in to additional content. This content is a little bit
+                            longer.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+    <!--Start of services-->
+    <div id="servicesCategories">
+        <section class="row hidden container container-padded" id="categoryContainer">
+
+                <div class="dropdown">
+                    <button id="dropdownmenu" type="button" class="btn btn-secondary dropdown-toggle "
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Select a Category
+                    </button>
+                    <div id="categoryList" class="dropdown-menu" aria-labelledby="dropdownmenu">
+                    </div>
+                </div>
+            </section>
+
+            <section class="hidden" id="servicesContainer">
+                <div class="row">
+                <div class="col-md-6">
+                    <h3 id="categoryName" class="text-center">&nbsp;</h3>
+                    <ul id="serviceList"></ul>
+                </div>
+                <div class="col-md-3 hidden mt-4 cards" id="serviceCard">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title cardsTitle" id="cardTitle">&nbsp;</h4>
+                            <p class="card-text" id="cardText1">&nbsp;</p>
+                            <p class="card-text" id="cardText2">&nbsp;</p>
+                            <p class="card-text" id="cardText3">&nbsp;</p>  
+                        </div>
+                        <img class=" text-center card-img-bottom " id="cardText4"/>
+                    </div>
+                </div>
+                </div>
+        </section>
+    </div>
+    <!-- End of services-->
+
+    <!--End of Home Page-->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="scripts/scripts.js"></script>
+</body>
+
+</html>
