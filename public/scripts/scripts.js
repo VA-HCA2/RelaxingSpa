@@ -9,7 +9,7 @@ $(function () {
   
     });
 
-    $('#servicesBtn').on("click", function () {
+    $('.servicesBtn').on("click", function () {
         $("#homePagediv").hide();
         $("#servicesCategories").show();
         $("#categoryContainer").show();
@@ -60,6 +60,8 @@ function getProduct(serviceid) {
         $('#cardText1').html(service.Description);
         $('#cardText2').html(service.Minutes+" Minutes");
         $('#cardText3').html("$" + Number(service.Price).toFixed(2));
+        $('#cardText4').attr("src","/images/"+service.Images);
+        $('#cardText4').attr("alt",service.ServiceName);
         $('#serviceCard').show();
     });
 }

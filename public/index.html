@@ -14,26 +14,68 @@
     <title>Relaxing Spa</title>
 </head>
 
-<body >
+<body>
     <nav
-        class=" font-weight-bold d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-        <a class="title my-0 mr-md-auto font-weight-normal text-decoration-none title" href="index.html">Relaxing Spa</a>
-        <div class="my-2 my-md-0 mr-md ">
-            <button id="homePage" type="button" class="btn btn-light">Home</button>
-            <button id="servicesBtn" type="button" class="btn btn-light">Products</button>
-        </div>
-    </nav>
+        class=" font-weight-bold d-flex  p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+        <a class="title  mr-md-5 text-decoration-none title font-weight-bold" href="index.html">Relaxing Spa</a>
+         <button type="button" class="btn btn-light servicesBtn font-weight-bold bg-white">Services</button>
+        </nav>
     <!--Home Page-->
     <div id="homePagediv">
-        <div class="jumbotron backgroundImg">
-            <p class="col-md-7 home">Home</p>
+        <div class="jumbotron">
         </div>
-    </div>
-    <div class="text-center mt-5">
-            <h1>Learn today – Lead tomorrow</h1>
-            <a href="courses.html" class="btn btn-warning btn-lg active font-weight-bold mt-3" role="button"
-              aria-pressed="true">Get Started</a>
+   
+    <div class="text-center page mt-5 col-md-4 text-center">
+            <h1 >Feel natural, be natural.</h1>
+            <p>Get away with your girlfriends and delight in all that Relaxing Spa has to offer. While enjoying their company, try one or several spa services, including, a hot stone and signature four-handed massage, award winning facials, microdermabrasion and so much more !</p>
+            <a href="#" class="btn btn-warning btn-lg active font-weight-bold mt-3 servicesBtn" role="button"
+              aria-pressed="true">Services</a>
           </div>
+    
+          <div class="album py-5">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card mb-4 shadow-sm">
+                        <img src="images/spa.jpg" alt="languages" />
+                        <div class="card-body">
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a natural
+                            lead-in to additional content. This content is a little bit
+                            longer.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="col-md-4">
+                      <div class="card mb-4 shadow-sm">
+                        <img src="images/services.jpg" alt="technology" />
+                        <div class="card-body">
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a natural
+                            lead-in to additional content. This content is a little bit
+                            longer.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card mb-4 shadow-sm">
+                        <img src="images/facial.jpg" alt="people" />
+                        <div class="card-body">
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a natural
+                            lead-in to additional content. This content is a little bit
+                            longer.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
 
     <!--Start of services-->
     <div id="servicesCategories">
@@ -54,14 +96,15 @@
                     <h3 id="categoryName" class="text-center">&nbsp;</h3>
                     <ul id="serviceList"></ul>
                 </div>
-                <div class="col-md-4 hidden mt-4 cards" id="serviceCard">
+                <div class="col-md-3 hidden mt-4 cards" id="serviceCard">
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="card-title" id="cardTitle">&nbsp;</h4>
+                            <h4 class="card-title cardsTitle" id="cardTitle">&nbsp;</h4>
                             <p class="card-text" id="cardText1">&nbsp;</p>
                             <p class="card-text" id="cardText2">&nbsp;</p>
-                            <p class="card-text" id="cardText3">&nbsp;</p>
+                            <p class="card-text" id="cardText3">&nbsp;</p>  
                         </div>
+                        <img class=" text-center card-img-bottom " id="cardText4"/>
                     </div>
                 </div>
                 </div>
