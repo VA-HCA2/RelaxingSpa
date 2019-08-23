@@ -1,0 +1,24 @@
+.title {
+  font-family: cursive;
+  font-size: 30px;
+  color: green
+}
+
+.hidden {
+  display: none
+}
+
+.cards {
+  top: 17px
+}
+
+#dropdownmenu {
+  margin-left: 520px;
+}
+
+.backgroundImg {
+  background-image: url("../images/banner.jpg");
+  max-height: 100%;
+  max-width: 100%;
+  background-repeat: repeat-x}
+

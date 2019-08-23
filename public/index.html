@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Relaxing Spa</title>
+</head>
+
+<body >
+    <nav
+        class=" font-weight-bold d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+        <a class="title my-0 mr-md-auto font-weight-normal text-decoration-none title" href="index.html">Relaxing Spa</a>
+        <div class="my-2 my-md-0 mr-md ">
+            <button id="homePage" type="button" class="btn btn-light">Home</button>
+            <button id="servicesBtn" type="button" class="btn btn-light">Products</button>
+        </div>
+    </nav>
+    <!--Home Page-->
+    <div id="homePagediv">
+        <div class="jumbotron backgroundImg">
+            <p class="col-md-7 home">Home</p>
+        </div>
+    </div>
+    <div class="text-center mt-5">
+            <h1>Learn today – Lead tomorrow</h1>
+            <a href="courses.html" class="btn btn-warning btn-lg active font-weight-bold mt-3" role="button"
+              aria-pressed="true">Get Started</a>
+          </div>
+
+    <!--Start of services-->
+    <div id="servicesCategories">
+        <section class="row hidden container container-padded" id="categoryContainer">
+
+                <div class="dropdown">
+                    <button id="dropdownmenu" type="button" class="btn btn-secondary dropdown-toggle "
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Select a Category
+                    </button>
+                    <div id="categoryList" class="dropdown-menu" aria-labelledby="dropdownmenu">
+                    </div>
+                </div>
+            </section>
+
+            <section class="hidden" id="servicesContainer">
+                <div class="row">
+                <div class="col-md-6">
+                    <h3 id="categoryName" class="text-center">&nbsp;</h3>
+                    <ul id="serviceList"></ul>
+                </div>
+                <div class="col-md-4 hidden mt-4 cards" id="serviceCard">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title" id="cardTitle">&nbsp;</h4>
+                            <p class="card-text" id="cardText1">&nbsp;</p>
+                            <p class="card-text" id="cardText2">&nbsp;</p>
+                            <p class="card-text" id="cardText3">&nbsp;</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </section>
+    </div>
+    <!-- End of services-->
+
+    <!--End of Home Page-->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="scripts/scripts.js"></script>
+</body>
+
+</html>
