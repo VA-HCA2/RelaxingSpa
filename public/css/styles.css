@@ -1,7 +1,99 @@
+/* This style applies to the nav bar */
+
 .title {
-  font-family: cursive;
-  font-size: 30px;
-  color: rgb(164, 167, 40)
+  font-family: 'Dancing Script', cursive;
+  font-size: 35px;
+  color: lightcoral
+}
+
+a:hover {
+  color: lightcoral
+}
+
+.servicesBtn {
+  color: rgb(143, 82, 133);
+  font-size: 20px;
+  font-family: 'Handlee', cursive;
+}
+
+/* This style applies to the Welcome banner*/
+
+h1 {
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 80px;
+}
+
+/* Jumbotron image */
+
+.jumbotron {
+  background-image: url("../images/banner2.jpg");
+  height: 280px;
+  margin: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%, 50%;
+  border-radius: 25px
+}
+
+/* This style applies to the text on the main page*/
+
+h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  color: rgb(143, 82, 133);
+}
+
+p {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+  color: rgb(29, 19, 27);
+}
+
+.spaServices {
+  text-align: justify
+}
+
+.formBorder, .page {
+  padding: 2%;
+  margin-top: 100px;
+  border-radius: 25px;
+  border: 3px solid rgb(139, 74, 85);
+  background-color: rgb(255, 255, 255);
+  margin-left: 32%
+}
+
+/***Second Page***/
+
+/*Title on Second Page */
+
+h3 {
+  color: rgb(194, 82, 82);
+  font-family: 'Dancing Script', cursive;
+  font-size: 80px;
+}
+
+.jumbotron2 {
+  background-image: url("../images/banner.jpg");
+  height: 230px;
+  margin: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%, 50%;
+  border-radius: 25px
+}
+
+/* Drop down menu from services */
+
+#dropdownmenu {
+  margin-left: 450px;
+}
+
+/* Cards */
+
+h4, h5 {
+  color: rgb(194, 82, 82);
+  font-family: cursive
 }
 
 .hidden {
@@ -9,30 +101,5 @@
 }
 
 .cards {
-  top: 17px
+  top: 57px
 }
-
-#dropdownmenu {
-  margin-left: 450px;
-  margin-top: 100px;
-}
-
-.jumbotron {
-  background-image: url("../images/banner.jpg");
-  height: 180px;
-  background-repeat: repeat-x}
-
-  .formBorder, .page {
-    padding: 2%;
-    margin-top: 100px;
-    border-radius: 25px;
-    border: 3px solid rgb(6, 110, 60);
-    background-color: rgb(255, 255, 255);
-    margin-left:32%
-  }
-
-  .servicesHeader{
-    color:rgb(33, 131, 131);
-    font-size:80px;
-    font-family: cursive
-  }

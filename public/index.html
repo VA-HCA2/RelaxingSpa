@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -9,41 +8,51 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Handlee&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" href="images/favicon.png" />
   <title>Relaxing Spa</title>
 </head>
 
 <body>
+  <!--Navbar-->
   <nav class=" font-weight-bold d-flex  p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
     <a class="title  mr-md-5 text-decoration-none title font-weight-bold" href="index.html">Relaxing Spa</a>
-    <button type="button" class="btn btn-light servicesBtn font-weight-bold bg-white">Services</button>
+    <button type="button" class="btn btn-light btn-lg servicesBtn font-weight-bold bg-white text">Services</button>
   </nav>
-  <!--Home Page-->
+  <!--End of Navbar-->
+
+  <!--Home Page Start-->
+
+  <!--Jumbotron for home page-->
   <div id="homePagediv">
     <div class="jumbotron">
+      <h1 class="text-center font-weight-bold mt-3">Welcome</h1>
     </div>
 
-    <div class="text-center page mt-5 col-md-4 text-center">
-      <h1>Feel natural, be natural.</h1>
-      <p>Get away with your girlfriends and delight in all that Relaxing Spa has to offer. While enjoying their company,
+    <section class="text-center page mt-5 col-md-4 text-center">
+      <h2 class="font-weight-bold">Feel natural, be natural.</h2>
+      <p class="mt-3">Get away with your girlfriends and delight in all that Relaxing Spa has to offer. While enjoying
+        their company,
         try one or several spa services, including, a hot stone and signature four-handed massage, award winning
         facials, microdermabrasion and so much more !</p>
-      <a href="#" class="btn btn-warning btn-lg active font-weight-bold mt-3 servicesBtn" role="button"
+      <a href="#" class="btn btn-outline-info btn-lg active font-weight-bold mt-3 servicesBtn" role="button"
         aria-pressed="true">Services</a>
-    </div>
-
-    <div class="album py-5">
+    </section>
+    <!--Images at the bottom of my home page-->
+    <section class="album py-5">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-              <img src="images/spa.jpg" alt="languages" />
-              <div class="card-body">
+              <img src="images/services.jpg" alt="hot-stones" />
+              <div class="card-body spaServices">
                 <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Our signature hot stone massage is extremely relaxing but even more invigorating. The Massage
+                  Therapist uses the hot stones to massage your
+                  body. The heat helps release tension in your back and shoulders so those muscles can be worked on more
+                  effectively. The result is deep relaxation and peace.
                 </p>
               </div>
             </div>
@@ -51,57 +60,64 @@
 
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-              <img src="images/services.jpg" alt="technology" />
+              <img src="images/facial.jpg" alt="technology" />
               <div class="card-body">
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                <p class="card-text spaServices">
+                  Each treatment begins with a skin analysis and consultation by our uniquely trained expert
+                  estheticians. Our services implement customized techniques with clinical
+                  grade products to deliver the best possible results. Our micro-current machine is the only one to
+                  deliver a double current for maximum results.
                 </p>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-              <img src="images/facial.jpg" alt="people" />
+              <img src="images/spa.jpg" alt="people" />
               <div class="card-body">
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                <p class="card-text spaServices">
+                  Body treatments are essentially a facial for your whole body and leave your skin feeling velvety
+                  smooth and soft. The idea behind a body treatment is that it is just
+                  as important to cleanse, exfoliate, and hydrate the skin on your body as it is the skin of your face.
+                  This procedure is good for your body no matter what time of year.
                 </p>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!--Start of services-->
-  <div id="servicesCategories">
-    <section class="row hidden container container-padded " id="categoryContainer">
-      <h2 class="text-center servicesHeader">Services</h2>
-      <div class="dropdown">
-        <button id="dropdownmenu" type="button" class="btn btn-secondary dropdown-toggle " data-toggle="dropdown"
-          aria-haspopup="true" aria-expanded="false"> Select a Category
-        </button>
-        <!-- This codes fails HTML validation  (x-placement not allowed )but it came from Boostrap class-->
-        <div id="categoryList" class="dropdown-menu" aria-labelledby="dropdownmenu">
         </div>
       </div>
     </section>
-
+  </div>
+  <!--End of Home Page-->
+  <!--Start of services-->
+  <div id="servicesCategories">
+    <section class="row hidden " id="categoryContainer">
+      <!--Jumbotron fpr services page-->
+      <div class="jumbotron2">
+        <h3 class="text-center font-weight-bold mt-3">Services</h3>
+      </div>
+      <!--Dropdown Menu-->
+      <div class="dropdown row col-md-9">
+        <button id="dropdownmenu" type="button" class="btn dropdown custom-select d-block font-weight-bold" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false"> Select a Category
+        </button>
+        <!-- This codes fails HTML validation  (x-placement not allowed )but it came from Boostrap class-->
+        <div id="categoryList" class="dropdown-menu col-md-6" aria-labelledby="dropdownmenu">
+        </div>
+      </div>
+    </section>
+    <!--Services-->
     <section class="hidden" id="servicesContainer">
       <div class="row">
-        <div class="col-md-6">
-          <h3 id="categoryName" class="text-center">&nbsp;</h3>
+        <div class="col-md-5">
+          <h4 id="categoryName" class="text-center mt-5 font-weight-bold">&nbsp;</h4>
           <ul id="serviceList"></ul>
         </div>
+        <!--Cards with Information-->
         <div class="col-md-3 hidden mt-4 cards" id="serviceCard">
           <div class="card">
             <div class="card-body">
-              <h4 class="card-title cardsTitle" id="cardTitle">&nbsp;</h4>
+              <h5 class="card-title cardsTitle font-weight-bold" id="cardTitle">&nbsp;</h5>
               <p class="card-text" id="cardText1">&nbsp;</p>
               <p class="card-text" id="cardText2">&nbsp;</p>
               <p class="card-text" id="cardText3">&nbsp;</p>
@@ -114,7 +130,6 @@
   </div>
   <!-- End of services-->
 
-  <!--End of Home Page-->
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
